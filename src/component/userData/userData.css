@@ -1,0 +1,6 @@
+.user_view{
+    width: 100%
+}
+.user_view .card {
+    box-shadow: 1px 1px 1px 1px #e3e6e9;
+}

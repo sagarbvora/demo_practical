@@ -1,0 +1,39 @@
+.dashboard .card{
+    box-shadow: 0px 1px 6px 1px #e2e4e7;
+}
+.dashboard .card .card-body .action{
+    display: flex;
+    width: 45px;
+    justify-content: inherit;
+}
+.action .anticon-delete{
+    color: red;
+}
+.dashboard .card-title{
+  padding-left: unset;
+}
+.dashboard .active{
+    width: 10px;
+    height: 10px;
+    background: seagreen;
+    border-radius: 50%;
+}
+.dashboard .inActive{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+}
+.dashboard .point{
+    align-items: baseline;
+}
+
+@media screen and (max-width: 1367px) {
+    .dashboard .ant-table{
+        overflow-x: auto;
+        width: 100%;
+    }
+    .dashboard .btn{
+        margin-bottom: 10px;
+    }
+}
